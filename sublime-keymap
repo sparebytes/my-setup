@@ -1,3 +1,5 @@
 [
-	{ "keys": ["f1"], "command": "toggle_setting", "args": {"setting": "word_wrap"}}
+	{ "keys": ["f1"], "command": "toggle_setting", "args": {"setting": "word_wrap"}},
+	{ "keys": ["ctrl+tab"], "command": "next_view" },
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" }
 ]

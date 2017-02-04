@@ -2,10 +2,11 @@
 {
   // Controls the rendering size of tabs in characters. Accepted values: "auto", 2, 4, 6, etc. If set to "auto", the value will be guessed when a file is opened.
   "editor.tabSize": 4,
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 1,
 
   // Controls if the editor should automatically close brackets after opening them
   "editor.autoClosingBrackets": false,
   "workbench.activityBar.visible": true,
-  "workbench.editor.showTabCloseButton": false
+  "window.showFullPath": true,
+  "vsicons.projectDetection.disableDetect": true
 }

@@ -12,5 +12,9 @@
   {
     "key": "ctrl+tab",
     "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "workbench.action.tasks.runTask"
   }
 ]

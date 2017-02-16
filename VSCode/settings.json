@@ -1,12 +1,20 @@
-// Place your settings in this file to overwrite the default settings
 {
-  // Controls the rendering size of tabs in characters. Accepted values: "auto", 2, 4, 6, etc. If set to "auto", the value will be guessed when a file is opened.
-  "editor.tabSize": 4,
-  "window.zoomLevel": 1,
+    "window.showFullPath": true,
+    "workbench.welcome.enabled": false,
+    "editor.fontFamily": "Source Code Pro, Menlo, Consolas, 'Courier New', monospace",
+    "editor.fontSize": 12,
+    "window.zoomLevel": 0,
+    "window.menuBarVisibility": "toggle",
+    "editor.tabSize": 4,
+    "editor.autoClosingBrackets": false,
+    "workbench.activityBar.visible": true,
 
-  // Controls if the editor should automatically close brackets after opening them
-  "editor.autoClosingBrackets": false,
-  "workbench.activityBar.visible": true,
-  "window.showFullPath": true,
-  "vsicons.projectDetection.disableDetect": true
+    // VS-Icons
+    "vsicons.projectDetection.disableDetect": true,
+
+    // Git Project Manager
+    "gitProjectManager.baseProjectsFolders": [
+        "D:\\files\\work\\mc\\prime\\www"
+    ],
+    "gitProjectManager.openInNewWindow": true
 }

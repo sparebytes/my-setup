@@ -3,18 +3,17 @@
     "workbench.welcome.enabled": false,
     "editor.fontFamily": "Source Code Pro, Menlo, Consolas, 'Courier New', monospace",
     "editor.fontSize": 12,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "window.menuBarVisibility": "toggle",
     "editor.tabSize": 4,
     "editor.autoClosingBrackets": false,
     "workbench.activityBar.visible": true,
-
     // VS-Icons
     "vsicons.projectDetection.disableDetect": true,
-
     // Git Project Manager
     "gitProjectManager.baseProjectsFolders": [
         "D:\\files\\work\\mc\\prime\\www"
     ],
-    "gitProjectManager.openInNewWindow": true
+    "gitProjectManager.openInNewWindow": true,
+    "gitProjectManager.maxDepthRecursion": 1
 }

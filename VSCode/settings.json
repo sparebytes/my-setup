@@ -15,5 +15,7 @@
         "D:\\files\\work\\mc\\prime\\www"
     ],
     "gitProjectManager.openInNewWindow": true,
-    "gitProjectManager.maxDepthRecursion": 1
+    "gitProjectManager.maxDepthRecursion": 1,
+    "editor.wordWrap": false,
+    "files.eol": "\n"
 }

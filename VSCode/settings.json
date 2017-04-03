@@ -12,10 +12,20 @@
     "vsicons.projectDetection.disableDetect": true,
     // Git Project Manager
     "gitProjectManager.baseProjectsFolders": [
+        "D:\\files\\work\\mc",
         "D:\\files\\work\\mc\\prime\\www"
     ],
     "gitProjectManager.openInNewWindow": true,
     "gitProjectManager.maxDepthRecursion": 1,
     "editor.wordWrap": false,
-    "files.eol": "\n"
+    "files.eol": "\n",
+    "files.associations": {
+        "Vagrantfile": "ruby"
+    },
+    "editor.minimap.enabled": true,
+    "window.title": "${rootName}",
+    "search.exclude": {
+        "**/node_modules": false,
+        "**/bower_components": false
+    }
 }

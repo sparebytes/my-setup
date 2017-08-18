@@ -1,31 +1,25 @@
 {
-    "window.showFullPath": true,
-    "workbench.welcome.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none",
     "editor.fontFamily": "Source Code Pro, Menlo, Consolas, 'Courier New', monospace",
     "editor.fontSize": 12,
+    "window.title": "${rootName}",
     "window.zoomLevel": 1,
     "window.menuBarVisibility": "toggle",
     "editor.tabSize": 4,
     "editor.autoClosingBrackets": false,
     "workbench.activityBar.visible": true,
-    // VS-Icons
-    "vsicons.projectDetection.disableDetect": true,
-    // Git Project Manager
-    "gitProjectManager.baseProjectsFolders": [
-        "D:\\files\\work\\mc",
-        "D:\\files\\work\\mc\\prime\\www"
-    ],
-    "gitProjectManager.openInNewWindow": true,
-    "gitProjectManager.maxDepthRecursion": 1,
     "editor.wordWrap": false,
     "files.eol": "\n",
     "files.associations": {
         "Vagrantfile": "ruby"
     },
     "editor.minimap.enabled": true,
-    "window.title": "${rootName}",
     "search.exclude": {
         "**/node_modules": false,
         "**/bower_components": false
-    }
+    },
+    "projectManager.vscode.maxDepthRecursion": 1,
+    "projectManager.vscode.baseFolders": [
+    ]
 }

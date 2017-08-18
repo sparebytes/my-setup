@@ -8,8 +8,8 @@
     "window.menuBarVisibility": "toggle",
     "editor.tabSize": 4,
     "editor.autoClosingBrackets": false,
-    "workbench.activityBar.visible": true,
-    "editor.wordWrap": false,
+    "workbench.activityBar.visible": true
+    "editor.wordWrap": "off",
     "files.eol": "\n",
     "files.associations": {
         "Vagrantfile": "ruby"

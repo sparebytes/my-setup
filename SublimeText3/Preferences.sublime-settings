@@ -1,5 +1,8 @@
 // Settings in here override those in "Default/Preferences.sublime-settings",
 // and are overridden in turn by syntax-specific settings.
 {
-	"word_wrap": false
+    "font_size": 14,
+    "word_wrap": false,
+    "translate_tabs_to_spaces": true,
+    "detect_indentation": false,
 }

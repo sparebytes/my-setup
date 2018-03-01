@@ -6,6 +6,11 @@
         "when": "editorFocus"
     },
     {
+        "key": "alt+f5",
+        "command": "workbench.action.debug.restart",
+        "when": "inDebugMode"
+    },
+    {
         "key": "ctrl+shift+tab",
         "command": "workbench.action.previousEditor"
     },
@@ -14,7 +19,7 @@
         "command": "workbench.action.nextEditor"
     },
     {
-        "key": "ctrl+i",
+        "key": "ctrl+shift+q",
         "command": "workbench.action.tasks.runTask"
     },
     {
@@ -28,5 +33,29 @@
     {
         "key": "shift+alt+o",
         "command": "projectManager.listProjects"
+    },
+    {
+        "key": "f7",
+        "command": "workbench.debug.viewlet.action.disableAllBreakpoints"
+    },
+    {
+        "key": "f6",
+        "command": "workbench.debug.viewlet.action.enableAllBreakpoints"
+    },
+    {
+        "key": "alt+i",
+        "command": "workbench.action.tasks.terminate"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "workbench.action.tasks.showTasks"
+    },
+    {
+        "key": "alt+`",
+        "command": "workbench.action.togglePanelPosition"
+    },
+    {
+        "key": "alt+b",
+        "command": "workbench.action.tasks.test"
     }
 ]

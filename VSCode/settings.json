@@ -1,8 +1,7 @@
 {
-
     "editor.fontFamily": "Source Code Pro, Menlo, Consolas, 'Courier New', monospace",
-    "editor.fontSize": 12,
-    "window.zoomLevel": 1,
+    "editor.fontSize": 13,
+    "window.zoomLevel": 0,
     "window.menuBarVisibility": "toggle",
     "editor.tabSize": 4,
     "editor.autoClosingBrackets": false,
@@ -11,7 +10,8 @@
     "editor.wordWrap": "off",
     "files.eol": "\n",
     "files.associations": {
-        "Vagrantfile": "ruby"
+        "Vagrantfile": "ruby",
+        ".prettierrc": "yaml"
     },
     "editor.minimap.enabled": true,
     "window.title": "${rootName}",
@@ -19,16 +19,20 @@
         "**/node_modules": false,
         "**/bower_components": false
     },
+    "projectManager.vscode.maxDepthRecursion": 1,
     "projectManager.vscode.baseFolders": [
     ],
-    "projectManager.vscode.maxDepthRecursion": 1,
+    "projectManager.git.baseFolders": [],
+    "projectManager.git.maxDepthRecursion": 1,
     "extensions.ignoreRecommendations": true,
-    "terminal.integrated.shell.windows": "C:\\Windows\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
     "material-icon-theme.showUpdateMessage": false,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "newUntitledFile",
     "projectManager.treeview.visible": false,
     "xmlTools.treeViewEnabled": false,
     "workbench.panel.location": "bottom",
-    "typescript.autoImportSuggestions.enabled": false
+    "typescript.autoImportSuggestions.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "prettier.requireConfig": true,
+    // "editor.formatOnSave": true,
 }

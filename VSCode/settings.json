@@ -1,25 +1,37 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.startupEditor": "none",
     "editor.fontFamily": "Source Code Pro, Menlo, Consolas, 'Courier New', monospace",
-    "editor.fontSize": 12,
-    "window.title": "${rootName}",
-    "window.zoomLevel": 1,
+    "editor.fontSize": 13,
+    "window.zoomLevel": 0,
     "window.menuBarVisibility": "toggle",
     "editor.tabSize": 4,
     "editor.autoClosingBrackets": false,
-    "workbench.activityBar.visible": true
+    "workbench.activityBar.visible": true,
     "editor.wordWrap": "off",
     "files.eol": "\n",
     "files.associations": {
-        "Vagrantfile": "ruby"
+        "Vagrantfile": "ruby",
+        ".prettierrc": "yaml"
     },
     "editor.minimap.enabled": true,
+    "window.title": "${rootName}",
     "search.exclude": {
         "**/node_modules": false,
         "**/bower_components": false
     },
     "projectManager.vscode.maxDepthRecursion": 1,
     "projectManager.vscode.baseFolders": [
-    ]
+    ],
+    "projectManager.git.baseFolders": [],
+    "projectManager.git.maxDepthRecursion": 1,
+    "extensions.ignoreRecommendations": true,
+    "material-icon-theme.showUpdateMessage": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
+    "projectManager.treeview.visible": false,
+    "xmlTools.treeViewEnabled": false,
+    "workbench.panel.location": "bottom",
+    "typescript.autoImportSuggestions.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "prettier.requireConfig": true,
+    // "editor.formatOnSave": true,
 }

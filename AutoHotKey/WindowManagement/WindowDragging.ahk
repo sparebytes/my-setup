@@ -4,20 +4,20 @@
 
 ; Change history:
 ; November 07, 2006: Optimized resizing code in !RButton, courtesy of bluedawn.
-; February 05, 2006: Fixed double-alt (the ~Alt hotkey) to work with latest versions of AHK.
+; February 05, 2006: Fixed double-lwin (the ~LWin hotkey) to work with latest versions of AHK.
 
-; The Double-Alt modifier is activated by pressing
-; Alt twice, much like a double-click. Hold the second
+; The Double-LWin modifier is activated by pressing
+; LWin twice, much like a double-click. Hold the second
 ; press down until you click.
 ;
 ; The shortcuts:
-;  Alt + Left Button  : Drag to move a window.
-;  Alt + Right Button : Drag to resize a window.
-;  Double-Alt + Left Button   : Minimize a window.
-;  Double-Alt + Right Button  : Maximize/Restore a window.
-;  Double-Alt + Middle Button : Close a window.
+;  LWin + Left Button  : Drag to move a window.
+;  LWin + Right Button : Drag to resize a window.
+;  Double-LWin + Left Button   : Minimize a window.
+;  Double-LWin + Right Button  : Maximize/Restore a window.
+;  Double-LWin + Middle Button : Close a window.
 ;
-; You can optionally release Alt after the first
+; You can optionally release LWin after the first
 ; click rather than holding it down the whole time.
 
 If (A_AhkVersion < "1.0.39.00")
@@ -37,13 +37,13 @@ CoordMode,Mouse
 return
 
 #LButton::
-If DoubleAlt
+If DoubleLWin
 {
     MouseGetPos,,,KDE_id
     ; This message is mostly equivalent to WinMinimize,
     ; but it avoids a bug with PSPad.
     PostMessage,0x112,0xf020,,,ahk_id %KDE_id%
-    DoubleAlt := false
+    DoubleLWin := false
     return
 }
 ; Get the initial mouse position and window id, and
@@ -69,7 +69,7 @@ Loop
 return
 
 #RButton::
-If DoubleAlt
+If DoubleLWin
 {
     MouseGetPos,,,KDE_id
     ; Toggle between maximized and restored state.
@@ -78,7 +78,7 @@ If DoubleAlt
         WinRestore,ahk_id %KDE_id%
     Else
         WinMaximize,ahk_id %KDE_id%
-    DoubleAlt := false
+    DoubleLWin := false
     return
 }
 ; Get the initial mouse position and window id, and
@@ -119,22 +119,22 @@ Loop
 }
 return
 
-; "Alt + MButton" may be simpler, but I
+; "LWin + MButton" may be simpler, but I
 ; like an extra measure of security for
 ; an operation like this.
 #MButton::
-If DoubleAlt
+If DoubleLWin
 {
     MouseGetPos,,,KDE_id
     WinClose,ahk_id %KDE_id%
-    DoubleAlt := false
+    DoubleLWin := false
     return
 }
 return
 
-; This detects "double-clicks" of the alt key.
-~Alt::
-DoubleAlt := A_PriorHotkey = "~Alt" AND A_TimeSincePriorHotkey < 400
+; This detects "double-clicks" of the win key.
+~LWin::
+DoubleLWin := A_PriorHotkey = "~LWin" AND A_TimeSincePriorHotkey < 400
 Sleep 0
-KeyWait Alt  ; This prevents the keyboard's auto-repeat feature from interfering.
+KeyWait LWin  ; This prevents the keyboard's auto-repeat feature from interfering.
 return

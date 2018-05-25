@@ -25,8 +25,8 @@ DetectHiddenWindows, On
 ;
 Files := [	; Additional Startup Files and Folders Can Be Added Between the ( Continuations  ) Below
 (Join, 
-"AlwaysOnTop.ahk"
-"WindowDragging.ahk"
+"WindowManagement\\AlwaysOnTop.ahk"
+"WindowManagement\\WindowDragging.ahk"
 )]
 ;}
 

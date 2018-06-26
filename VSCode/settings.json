@@ -1,37 +1,79 @@
 {
+    // Window
+    "window.menuBarVisibility": "toggle",
+    "window.zoomLevel": 0,
+    "window.title": "${rootName}",
+
+    // WorkBench
+    "workbench.activityBar.visible": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.statusBar.feedback.visible": false,
+    
+    // Editor
     "editor.fontFamily": "Source Code Pro, Menlo, Consolas, 'Courier New', monospace",
     "editor.fontSize": 13,
-    "window.zoomLevel": 0,
-    "window.menuBarVisibility": "toggle",
     "editor.tabSize": 4,
     "editor.autoClosingBrackets": false,
-    "workbench.activityBar.visible": true,
     "editor.wordWrap": "off",
+    "editor.minimap.enabled": true,
+    "editor.codeLens": true,
+    // "editor.formatOnSave": true,
+
+    // Explorer
+    "explorer.autoReveal": false,
+
+    // Language Helpers
+    "typescript.autoImportSuggestions.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+
+    // Source Control
+    "diffEditor.ignoreTrimWhitespace": true,
+    "git.autofetch": true,
+
+    // Files
     "files.eol": "\n",
     "files.associations": {
         "Vagrantfile": "ruby",
         ".prettierrc": "yaml"
     },
-    "editor.minimap.enabled": true,
-    "window.title": "${rootName}",
+
+    // Search
     "search.exclude": {
         "**/node_modules": false,
         "**/bower_components": false
     },
+
+    // Projects
     "projectManager.vscode.maxDepthRecursion": 1,
-    "projectManager.vscode.baseFolders": [
-    ],
+    // "projectManager.vscode.baseFolders": [],
     "projectManager.git.baseFolders": [],
     "projectManager.git.maxDepthRecursion": 1,
+    "projectManager.treeview.visible": false,
+
+    // Barrelr
+    "barrelr.useDoubleQuotes": true,
+    "barrelr.excludeFileRegex": "(\\.spec\\.|\\.test\\.|\\.e2e\\.|\\.ava\\.)",
+    
+    // Prettier
+    "prettier.requireConfig": true,
+    "prettier.disableLanguages": [
+        "vue",
+        "json"
+    ],
+
+    // Misc
+    "liveshare.guestApprovalRequired": true,
+    "extensions.autoUpdate": false,
     "extensions.ignoreRecommendations": true,
     "material-icon-theme.showUpdateMessage": false,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.startupEditor": "newUntitledFile",
-    "projectManager.treeview.visible": false,
-    "xmlTools.treeViewEnabled": false,
-    "workbench.panel.location": "bottom",
-    "typescript.autoImportSuggestions.enabled": false,
-    "diffEditor.ignoreTrimWhitespace": true,
-    "prettier.requireConfig": true,
-    // "editor.formatOnSave": true,
+    "gitlens.gitExplorer.files.layout": "auto",
+    "gitlens.keymap": "chorded",
+    "gitlens.historyExplorer.enabled": true,
+    "gitlens.showWhatsNewAfterUpgrades": false,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true,
+        "suppressWelcomeNotice": true
+    },
 }

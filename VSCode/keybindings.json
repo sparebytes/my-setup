@@ -94,12 +94,28 @@
         "command": "git.checkout"
     },
     {
-        "key": "alt+m",
+        "key": "alt+l",
         "command": "git.merge"
     },
     {
         "key": "enter",
         "command": "-acceptSelectedSuggestionOnEnter",
         "when": "acceptSuggestionOnEnter && suggestWidgetVisible && suggestionMakesTextEdit && textInputFocus"
+    },
+    {
+        "key": "alt+n",
+        "command": "explorer.newFolder"
+    },
+    {
+        "key": "alt+m",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.debug.panel.action.clearReplAction"
+    },
+    {
+        "key": "alt+d",
+        "command": "git.openChange"
     }
 ]

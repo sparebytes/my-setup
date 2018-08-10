@@ -1,4 +1,8 @@
 {
+    // Overrides
+    // "projectManager.vscode.baseFolders": [],
+    // "projectManager.git.baseFolders": [],
+
     // Window
     "window.menuBarVisibility": "toggle",
     "window.zoomLevel": 0,
@@ -17,11 +21,15 @@
     "editor.autoClosingBrackets": false,
     "editor.wordWrap": "off",
     "editor.minimap.enabled": true,
-    "editor.codeLens": true,
     // "editor.formatOnSave": true,
 
     // Explorer
     "explorer.autoReveal": false,
+
+    // CodeLens
+    "typescript.referencesCodeLens.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.codeLens.authors.enabled": false,
 
     // Language Helpers
     "typescript.autoImportSuggestions.enabled": false,
@@ -47,8 +55,6 @@
 
     // Projects
     "projectManager.vscode.maxDepthRecursion": 1,
-    // "projectManager.vscode.baseFolders": [],
-    "projectManager.git.baseFolders": [],
     "projectManager.git.maxDepthRecursion": 1,
     "projectManager.treeview.visible": false,
 
@@ -76,4 +82,30 @@
         "suppressShowKeyBindingsNotice": true,
         "suppressWelcomeNotice": true
     },
+    "workbench.editor.closeEmptyGroups": false,
+    "extensions.recommendations": [
+        "alefragnani.project-manager",
+        "Angular.ng-template",
+        "coenraads.bracket-pair-colorizer",
+        "digitalbrainstem.javascript-ejs-support",
+        "dotjoshjohnson.xml",
+        "eamodio.gitlens",
+        "EditorConfig.editorconfig",
+        "eg2.tslint",
+        "esbenp.prettier-vscode",
+        "infinity1207.angular2-switcher",
+        "johnpapa.angular2",
+        "mikael.angular-beastcode",
+        "mikerhyssmith.ts-barrelr",
+        "mrcrowl.easy-less",
+        "ms-vsliveshare.vsliveshare",
+        "msjsdiag.debugger-for-chrome",
+        "oliversturm.fix-json",
+        "peterjausovec.vscode-docker",
+        "pkief.material-icon-theme",
+        "tomoki1207.vscode-input-sequence",
+        "Tyriar.sort-lines",
+        "wayou.vscode-todo-highlight",
+        "xabikos.javascriptsnippets",
+    ],
 }

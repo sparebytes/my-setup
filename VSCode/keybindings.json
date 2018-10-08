@@ -117,5 +117,29 @@
     {
         "key": "alt+d",
         "command": "git.openChange"
+    },
+    {
+        "key": "alt+s",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+k s",
+        "command": "-workbench.action.files.saveAll"
+    },
+    {
+        "key": "alt+f",
+        "command": "filesExplorer.findInFolder"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "extension.queryFileSQL"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "workbench.action.closeAllGroups"
+    },
+    {
+        "key": "ctrl+k ctrl+shift+w",
+        "command": "-workbench.action.closeAllGroups"
     }
 ]
